@@ -18,7 +18,7 @@ export function GuessTable({ children, max = -1 }) {
     <Box
       width="90%"
       align="center"
-      background="light-2"
+      background="light-3"
       height={{ min: "150px", border:"2px solid white" }}
     >
       {children.map((child, i) => generateChild(child, i))}
